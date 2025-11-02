@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> xmlns="http://Assignment4/xml" targetNamespace="http://Assignment4/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:annotation>
+		<xsd:documentation xml:lang="en"> 
+			Assignement 4 Hotels XSD file 
+		</xsd:documentation>
+	</xsd:annotation>
+	<xsd:element name="Hotels">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Name" type="xsd:string"/>
+							<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="2"/>
+							<xsd:element name="Address">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Number" type="xs:string"/>
+										<xsd:element name="Street" type="xs:string"/>
+										<xsd:element name="City" type="xs:string"/>
+										<xsd:element name="State" type="xs:string"/>
+										<xsd:element name="Zip" type="xs:string"/>
+									</xsd:sequence>
+									<xsd:attribute name="NearestAirport" type="xs:string" use="required"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="Rating" type="xs:string" use="optional"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
+
