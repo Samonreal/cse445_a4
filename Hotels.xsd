@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> xmlns="http://Assignment4/xml" targetNamespace="http://Assignment4/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"> xmlns="https://github.com/Samonreal/cse445_a4/Hotels/xml" targetNamespace="https://github.com/Samonreal/cse445_a4/Hotels/xml" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:annotation>
 		<xsd:documentation xml:lang="en"> 
 			Assignement 4 Hotels XSD file 
@@ -33,4 +33,5 @@
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
+
 
