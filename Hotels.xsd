@@ -4,7 +4,7 @@
 	
 		<xsd:complexType name="HotelsType">
 			<xsd:sequence>
-				<xsd:element name="Hotel" name="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
 			</xsd:sequence>
 		</xsd:complexType>
 	
@@ -29,6 +29,7 @@
 		</xsd:complexType>
 
 </xsd:schema>
+
 
 
 
