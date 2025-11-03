@@ -1,15 +1,15 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<xsd:element name="Hotels">
-		<xsd:complexType>
+	<xsd:element name="Hotels" type="HotelsType"/>
+		<xsd:complexType name="HotelsType">
 			<xsd:sequence>
 				<xsd:element name="Hotel" minOccurs="1" maxOccurs="unbounded"/>
-					<xsd:complexType>
+					<xsd:complexType name="HotelDetails">
 						<xsd:sequence>
 							<xsd:element name="Name" type="xsd:string"/>
 							<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="2"/>
 							<xsd:element name="Address">
-								<xsd:complexType>
+								<xsd:complexType name="AddressDetails">
 									<xsd:sequence>
 										<xsd:element name="Number" type="xsd:string"/>
 										<xsd:element name="Street" type="xsd:string"/>
@@ -27,6 +27,7 @@
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
+
 
 
 
