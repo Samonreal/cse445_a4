@@ -63,7 +63,7 @@
 	</Hotel>
 
 	<Hotel>
-		<Name>La Quinta Inn & Suites</Name>
+		<Name>La Quinta Inn &amp; Suites</Name>
 		<Name>Wyndham</Name>
 		<Phone>520-573-3333</Phone>
 		<Address NearestAirport="Tucson International Airport">
@@ -76,7 +76,7 @@
 	</Hotel>
 
 	<Hotel Rating="3.7">
-		<Name>Holiday Inn & Suites</Name>
+		<Name>Holiday Inn &amp; Suites</Name>
 		<Phone>650-418-2444</Phone>
 		<Phone>800-465-4329</Phone>
 		<Address NearestAirport="San Francisco International Airport">
@@ -122,6 +122,7 @@
 			<Zip>98188</Zip>
 		</Address>
 	</Hotels>
+
 
 
 
